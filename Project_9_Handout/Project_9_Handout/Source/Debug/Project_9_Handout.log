@@ -1,0 +1,5 @@
+﻿  ModulePlayer.cpp
+C:\Users\espag\Downloads\Project_9_Handout\Project_9_Handout\Project_9_Handout\Source\Animation.h(57,19): warning C4244: 'initializing': conversion from 'const float' to 'int', possible loss of data
+C:\Users\espag\Downloads\Project_9_Handout\Project_9_Handout\Project_9_Handout\Source\Animation.h(59,30): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\espag\Downloads\Project_9_Handout\Project_9_Handout\Project_9_Handout\Source\ModuleRender.h(58,20): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  Project_9_Handout.vcxproj -> C:\Users\espag\Downloads\Project_9_Handout\Project_9_Handout\Debug\Project_9_Handout.exe

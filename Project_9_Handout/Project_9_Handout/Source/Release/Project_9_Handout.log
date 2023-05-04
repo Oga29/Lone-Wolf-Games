@@ -1,0 +1,14 @@
+﻿  ModulePlayer.cpp
+C:\Users\espag\Downloads\Project_9_Handout\Project_9_Handout\Project_9_Handout\Source\Animation.h(57,19): warning C4244: 'initializing': conversion from 'const float' to 'int', possible loss of data
+C:\Users\espag\Downloads\Project_9_Handout\Project_9_Handout\Project_9_Handout\Source\Animation.h(59,30): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\espag\Downloads\Project_9_Handout\Project_9_Handout\Project_9_Handout\Source\ModuleRender.h(58,20): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  SceneIntro.cpp
+C:\Users\espag\Downloads\Project_9_Handout\Project_9_Handout\Project_9_Handout\Source\Animation.h(57,19): warning C4244: 'initializing': conversion from 'const float' to 'int', possible loss of data
+C:\Users\espag\Downloads\Project_9_Handout\Project_9_Handout\Project_9_Handout\Source\Animation.h(59,30): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\espag\Downloads\Project_9_Handout\Project_9_Handout\Project_9_Handout\Source\ModuleRender.h(58,20): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  Generating code
+  1 of 163 functions ( 0.6%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Project_9_Handout.vcxproj -> C:\Users\espag\Downloads\Project_9_Handout\Project_9_Handout\Release\Project_9_Handout.exe
