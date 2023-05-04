@@ -28,6 +28,7 @@ bool SceneLevel1::Start()
 	bgTexture = App->textures->Load("Assets/Sprites/stage_1_map.png");
 	App->audio->PlayMusic("Assets/Music/01_Rise_from_Your_Grave_Round__1.ogg", 1.0f);
 
+
 	//Bottomside collider
 	App->collisions->AddCollider({ 0, 170, 3930, 10 }, Collider::Type::WALL);
 	App->collisions->AddCollider({ 1500, 0, 10, 240 }, Collider::Type::SCREEN_RIGHT);
