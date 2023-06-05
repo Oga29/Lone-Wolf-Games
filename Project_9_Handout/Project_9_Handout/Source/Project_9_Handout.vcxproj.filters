@@ -112,6 +112,9 @@
     <ClInclude Include="Spirit_Ball.h">
       <Filter>Source Files\Entities\Item</Filter>
     </ClInclude>
+    <ClInclude Include="Introduction.h">
+      <Filter>Source Files\Modules\Gameplay</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Module.cpp">
@@ -188,6 +191,9 @@
     </ClCompile>
     <ClCompile Include="Spirit_Ball.cpp">
       <Filter>Source Files\Entities\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Introduction.cpp">
+      <Filter>Source Files\Modules\Gameplay</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

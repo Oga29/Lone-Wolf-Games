@@ -1,10 +1,66 @@
-﻿  SceneLevel1.cpp
+﻿  Application.cpp
 C:\Users\espag\OneDrive\Documentos\GitHub\Lone-Wolf-Games\Project_9_Handout\Project_9_Handout\Source\Animation.h(57,19): warning C4244: 'initializing': conversion from 'const float' to 'int', possible loss of data
 C:\Users\espag\OneDrive\Documentos\GitHub\Lone-Wolf-Games\Project_9_Handout\Project_9_Handout\Source\Animation.h(59,30): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
 C:\Users\espag\OneDrive\Documentos\GitHub\Lone-Wolf-Games\Project_9_Handout\Project_9_Handout\Source\ModuleRender.h(58,20): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  Brown_Wolf.cpp
+C:\Users\espag\OneDrive\Documentos\GitHub\Lone-Wolf-Games\Project_9_Handout\Project_9_Handout\Source\Animation.h(57,19): warning C4244: 'initializing': conversion from 'const float' to 'int', possible loss of data
+C:\Users\espag\OneDrive\Documentos\GitHub\Lone-Wolf-Games\Project_9_Handout\Project_9_Handout\Source\Animation.h(59,30): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  Enemy.cpp
+C:\Users\espag\OneDrive\Documentos\GitHub\Lone-Wolf-Games\Project_9_Handout\Project_9_Handout\Source\Animation.h(57,19): warning C4244: 'initializing': conversion from 'const float' to 'int', possible loss of data
+C:\Users\espag\OneDrive\Documentos\GitHub\Lone-Wolf-Games\Project_9_Handout\Project_9_Handout\Source\Animation.h(59,30): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\espag\OneDrive\Documentos\GitHub\Lone-Wolf-Games\Project_9_Handout\Project_9_Handout\Source\ModuleRender.h(58,20): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  Enemy_Mech.cpp
+C:\Users\espag\OneDrive\Documentos\GitHub\Lone-Wolf-Games\Project_9_Handout\Project_9_Handout\Source\Animation.h(57,19): warning C4244: 'initializing': conversion from 'const float' to 'int', possible loss of data
+C:\Users\espag\OneDrive\Documentos\GitHub\Lone-Wolf-Games\Project_9_Handout\Project_9_Handout\Source\Animation.h(59,30): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  Introduction.cpp
+C:\Users\espag\OneDrive\Documentos\GitHub\Lone-Wolf-Games\Project_9_Handout\Project_9_Handout\Source\Animation.h(57,19): warning C4244: 'initializing': conversion from 'const float' to 'int', possible loss of data
+C:\Users\espag\OneDrive\Documentos\GitHub\Lone-Wolf-Games\Project_9_Handout\Project_9_Handout\Source\Animation.h(59,30): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\espag\OneDrive\Documentos\GitHub\Lone-Wolf-Games\Project_9_Handout\Project_9_Handout\Source\ModuleRender.h(58,20): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  Main.cpp
+  ModuleAudio.cpp
+  ModuleCollisions.cpp
+C:\Users\espag\OneDrive\Documentos\GitHub\Lone-Wolf-Games\Project_9_Handout\Project_9_Handout\Source\ModuleRender.h(58,20): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  ModuleEnemies.cpp
+C:\Users\espag\OneDrive\Documentos\GitHub\Lone-Wolf-Games\Project_9_Handout\Project_9_Handout\Source\ModuleRender.h(58,20): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\espag\OneDrive\Documentos\GitHub\Lone-Wolf-Games\Project_9_Handout\Project_9_Handout\Source\Animation.h(57,19): warning C4244: 'initializing': conversion from 'const float' to 'int', possible loss of data
+C:\Users\espag\OneDrive\Documentos\GitHub\Lone-Wolf-Games\Project_9_Handout\Project_9_Handout\Source\Animation.h(59,30): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  ModuleFadeToBlack.cpp
+C:\Users\espag\OneDrive\Documentos\GitHub\Lone-Wolf-Games\Project_9_Handout\Project_9_Handout\Source\ModuleRender.h(58,20): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\espag\OneDrive\Documentos\GitHub\Lone-Wolf-Games\Project_9_Handout\Project_9_Handout\Source\ModuleFadeToBlack.cpp(78,19): warning C4244: '=': conversion from 'float' to 'Uint32', possible loss of data
+  ModuleFonts.cpp
+C:\Users\espag\OneDrive\Documentos\GitHub\Lone-Wolf-Games\Project_9_Handout\Project_9_Handout\Source\ModuleRender.h(58,20): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  ModuleInput.cpp
+  ModuleParticles.cpp
+C:\Users\espag\OneDrive\Documentos\GitHub\Lone-Wolf-Games\Project_9_Handout\Project_9_Handout\Source\Animation.h(57,19): warning C4244: 'initializing': conversion from 'const float' to 'int', possible loss of data
+C:\Users\espag\OneDrive\Documentos\GitHub\Lone-Wolf-Games\Project_9_Handout\Project_9_Handout\Source\Animation.h(59,30): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\espag\OneDrive\Documentos\GitHub\Lone-Wolf-Games\Project_9_Handout\Project_9_Handout\Source\ModuleRender.h(58,20): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  ModulePlayer.cpp
+C:\Users\espag\OneDrive\Documentos\GitHub\Lone-Wolf-Games\Project_9_Handout\Project_9_Handout\Source\Animation.h(57,19): warning C4244: 'initializing': conversion from 'const float' to 'int', possible loss of data
+C:\Users\espag\OneDrive\Documentos\GitHub\Lone-Wolf-Games\Project_9_Handout\Project_9_Handout\Source\Animation.h(59,30): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\espag\OneDrive\Documentos\GitHub\Lone-Wolf-Games\Project_9_Handout\Project_9_Handout\Source\ModuleRender.h(58,20): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  ModuleRender.cpp
+C:\Users\espag\OneDrive\Documentos\GitHub\Lone-Wolf-Games\Project_9_Handout\Project_9_Handout\Source\ModuleRender.h(58,20): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  ModuleTextures.cpp
+C:\Users\espag\OneDrive\Documentos\GitHub\Lone-Wolf-Games\Project_9_Handout\Project_9_Handout\Source\ModuleRender.h(58,20): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  ModuleWindow.cpp
+  SceneIntro.cpp
+C:\Users\espag\OneDrive\Documentos\GitHub\Lone-Wolf-Games\Project_9_Handout\Project_9_Handout\Source\Animation.h(57,19): warning C4244: 'initializing': conversion from 'const float' to 'int', possible loss of data
+C:\Users\espag\OneDrive\Documentos\GitHub\Lone-Wolf-Games\Project_9_Handout\Project_9_Handout\Source\Animation.h(59,30): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\espag\OneDrive\Documentos\GitHub\Lone-Wolf-Games\Project_9_Handout\Project_9_Handout\Source\ModuleRender.h(58,20): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  SceneLevel1.cpp
+C:\Users\espag\OneDrive\Documentos\GitHub\Lone-Wolf-Games\Project_9_Handout\Project_9_Handout\Source\Animation.h(57,19): warning C4244: 'initializing': conversion from 'const float' to 'int', possible loss of data
+C:\Users\espag\OneDrive\Documentos\GitHub\Lone-Wolf-Games\Project_9_Handout\Project_9_Handout\Source\Animation.h(59,30): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\espag\OneDrive\Documentos\GitHub\Lone-Wolf-Games\Project_9_Handout\Project_9_Handout\Source\ModuleRender.h(58,20): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  Spirit_Ball.cpp
+C:\Users\espag\OneDrive\Documentos\GitHub\Lone-Wolf-Games\Project_9_Handout\Project_9_Handout\Source\Animation.h(57,19): warning C4244: 'initializing': conversion from 'const float' to 'int', possible loss of data
+C:\Users\espag\OneDrive\Documentos\GitHub\Lone-Wolf-Games\Project_9_Handout\Project_9_Handout\Source\Animation.h(59,30): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  Compiling...
+  Zombie.cpp
+C:\Users\espag\OneDrive\Documentos\GitHub\Lone-Wolf-Games\Project_9_Handout\Project_9_Handout\Source\Animation.h(57,19): warning C4244: 'initializing': conversion from 'const float' to 'int', possible loss of data
+C:\Users\espag\OneDrive\Documentos\GitHub\Lone-Wolf-Games\Project_9_Handout\Project_9_Handout\Source\Animation.h(59,30): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
   Generating code
-  1 of 163 functions ( 0.6%) were compiled, the rest were copied from previous compilation.
+  1 of 168 functions ( 0.6%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
-    1 functions had inline decision re-evaluated but remain unchanged
+    0 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
   Project_9_Handout.vcxproj -> C:\Users\espag\OneDrive\Documentos\GitHub\Lone-Wolf-Games\Project_9_Handout\Release\Project_9_Handout.exe
