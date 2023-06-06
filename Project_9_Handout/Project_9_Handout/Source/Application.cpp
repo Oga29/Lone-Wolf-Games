@@ -9,6 +9,7 @@
 #include "SceneIntro.h"
 #include "Introduction.h"
 #include "SceneLevel1.h"
+#include "Final_Screen.h"
 #include "ModuleParticles.h"
 #include "ModuleEnemies.h"
 #include "ModuleCollisions.h"
@@ -29,15 +30,16 @@ Application::Application()
 
 	modules[4] =    intro =         new Introduction(true);
 	modules[5] =	sceneIntro =	new SceneIntro(true);
-	modules[6] =	sceneLevel_1 =	new SceneLevel1(false);		//Gameplay scene starts disabled
-	modules[7] =	player =		new ModulePlayer(false);	//Player starts disabled
-	modules[8] =	particles =		new ModuleParticles(true);
-	modules[9] =	enemies =		new ModuleEnemies(false);	//Enemies start disabled
+	modules[6] =	sceneLevel_1 =	new SceneLevel1(false);	
+	modules[7] =    sceneFinal =    new FinalScreen(false);	//Gameplay scene starts disabled
+	modules[8] =	player =		new ModulePlayer(false);	//Player starts disabled
+	modules[9] =	particles =		new ModuleParticles(true);
+	modules[10] =	enemies =		new ModuleEnemies(false);	//Enemies start disabled
 
-	modules[10] =	collisions =	new ModuleCollisions(true);
-	modules[11] =	fade =			new ModuleFadeToBlack(true);
-	modules[12] =	fonts =			new ModuleFonts(true);
-	modules[13] =	render =		new ModuleRender(true);
+	modules[11] =	collisions =	new ModuleCollisions(true);
+	modules[12] =	fade =			new ModuleFadeToBlack(true);
+	modules[13] =	fonts =			new ModuleFonts(true);
+	modules[14] =	render =		new ModuleRender(true);
 	
 }
 

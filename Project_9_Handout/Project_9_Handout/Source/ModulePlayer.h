@@ -73,7 +73,7 @@ public:
 	Animation crouchkickAnim;
 	Animation attackAnim;
 	Animation kickAnim;
-	Animation deathAnim;
+	Animation deathAnim[4];
 	Animation powerAnim;
 
 	//States of Player
@@ -87,7 +87,8 @@ public:
 		PUNCH,
 		CROUCH_PUNCH,
 		KICK,
-		CROUCH_KICK
+		CROUCH_KICK,
+		DEATH,
 	};
 
 	state playerState = state::IDLE;
@@ -99,6 +100,13 @@ public:
 	Collider* punch = nullptr;
 	Collider* crouchkick = nullptr;
 	Collider* kick = nullptr;
+	bool diedInAir = false;
+	bool died = false;
+	bool GODMODE = false;
+	bool damaged = false;
+	bool PlayerTouch = true;
+	int waitForDmg = 0;
+	bool gameOver = false;
 
 	// A flag to detect when the player has been destroyed
 	bool destroyed = false;
@@ -111,10 +119,13 @@ public:
 
 	// Font score index
 	uint score = 000;
+	uint highScore = 000;
 	int scoreFont = -1;
 	char scoreText[10] = { "\0" };
-	int secondscounter = 0;
-
+	char highScoreText[10] = { "\0" };
+	int secondsCounter = 0;
+	int gameOverCounter = 0;
+	bool inAColumn = false;
 };
 
 #endif //!__MODULE_PLAYER_H__

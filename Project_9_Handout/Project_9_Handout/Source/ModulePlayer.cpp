@@ -205,21 +205,60 @@ Update_Status ModulePlayer::PostUpdate()
 	// Draw UI (score) --------------------------------------
 	sprintf_s(scoreText, 10, "%7d", score);
 
-	// TODO 3: Blit the text of the score at the bottom of the screen
-	App->fonts->BlitText(0, 20, scoreFont, scoreText);
-	App->fonts->BlitText(100, 20, scoreFont, scoreText);
-    secondscounter++;
-    if (secondscounter %100 ==0){
-
-	secondscounter=0;
-}
-    else if (secondscounter >50){
-	App->fonts->BlitText(200, 20, scoreFont, "insert coin");
-}
-
+	
 	if (score >= 200) {
 		App->fade->FadeToBlack((Module*)App->sceneLevel_1, (Module*)App->sceneIntro, 60);
 		
+	}
+	if (App->input->keys[SDL_SCANCODE_F2] == Key_State::KEY_DOWN) {
+		GODMODE = !GODMODE;
+	}
+	if (App->input->keys[SDL_SCANCODE_F3] == Key_State::KEY_DOWN) {
+		App->fade->FadeToBlack((Module*)App->sceneLevel_1, (Module*)App->sceneFinal, 90);
+
+	}
+	if (App->input->keys[SDL_SCANCODE_F4] == Key_State::KEY_DOWN) {
+		gameOver = true;
+		died = true;
+		deathAnim[phase].Reset();
+		playerState = state::DEATH;
+	}
+	if (GODMODE == true) {
+		App->player->collider->NONE;
+	}
+	else {
+		waitForDmg++;
+		if (waitForDmg >= 30) {
+			damaged = false;
+			PlayerTouch = true;
+			waitForDmg = 0;
+		}
+	}
+	// Draw UI (score) --------------------------------------
+	sprintf_s(scoreText, 10, "%7d", score);
+	sprintf_s(highScoreText, 10, "%7d", highScore);
+
+	// TODO 3: Blit the text of the score in at the bottom of the screen
+	App->fonts->BlitText(0, 20, scoreFont, scoreText);
+	App->fonts->BlitText(100, 20, scoreFont, highScoreText);
+	secondsCounter++;
+	if (secondsCounter % 100 == 0) {
+
+		secondsCounter = 0;
+	}
+	else if (secondsCounter > 50) {
+		App->fonts->BlitText(200, 20, scoreFont, "insert coin");
+	}
+
+
+
+
+
+
+
+	if (score >= 1000000) {
+		position.x = 30;
+
 	}
 
 	return Update_Status::UPDATE_CONTINUE;
