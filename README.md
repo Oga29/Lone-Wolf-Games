@@ -16,5 +16,16 @@ A - Left
 D - Right
 Space - Ability
 
+F1 - Debug
+F2 - GodMode
+F3 - Start Again
+F4 - GameOver
+
+
+[Youtube Video](https://youtu.be/yFXSDuM7CQg)
+
+
 [Lone-Wolf Games](https://github.com/Oga29/Lone-Wolf-Game)
+
+
 https://github.com/Oga29/Lone-Wolf-Game
